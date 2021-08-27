@@ -1,0 +1,2 @@
+to use the chatbot first run "trainforchat.py" it will automatically create a file named "Data.pth" after that run chatbot.py and woah its ready to chat
+you can even customize intents.json
