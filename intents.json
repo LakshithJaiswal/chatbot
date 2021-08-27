@@ -1,0 +1,56 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["hi", "yo boi", "what's upp buddy", "how do you do", "howdy", "what's happening", "Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+     "responses": ["Hello", "Good to see you", "Hi there", "hello there"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice talking to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks","you are cool","Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Sorry I Didnt Hear It Properly"],
+     "context": [""]
+    },
+    {"tag": "introduction",
+     "patterns": ["My name is","I am","Myself"],
+     "responses": ["I am Chatter","Myself Chatter","My name is chatter"],
+     "context": [""]
+    },
+    {"tag": "identity",
+     "patterns": ["Who are you","Tell something about you","Describe Your self"],
+     "responses": ["I am Chatter, an A.I developed by mr.p.lakshith jaiswal"],
+     "context": [""]
+    },
+    {"tag": "capability",
+     "patterns": ["What are your capabilities?","What Can you do"],
+     "responses": ["I can perform basic tasks like playing songs, helping to order something, book a flight, gist newspaper headlines, answer query about weather and things, and do many more things that you like and even general chat with you when you are bored."],
+     "context": [""]
+    },
+    {"tag": "lol",
+        "patterns": ["nice","thats funny","lol"],
+        "responses": ["lol","tqs","ha ha ha"],
+        "context": [""]
+    },
+    {"tag": "ok",
+        "patterns": ["ok","ya","k"],
+        "responses": ["ok","tqs","k"],
+        "context": [""]
+    },
+    {"tag": "apologyaccepted",
+        "patterns": ["its ok","no problem","chill","k buddy"],
+        "responses": ["thanks","you are soo good","thank you buddy"],
+        "context": [""]
+    },
+    {"tag": "casual",
+        "patterns": ["what are you doing", "what were you doing"],
+        "responses": ["nothing much", "i was bored but you are a very good friend", "nothing"],
+        "context": [""]
+    }
